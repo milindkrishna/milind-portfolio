@@ -8,7 +8,7 @@ const Contact = () => {
       icon: Mail,
       label: "Email",
       value: "milindkrishna1998@gmail.com",
-      href: "mailto:milindkrishna1998@gmail.com",
+      href: "https://mail.google.com/mail/?view=cm&to=milindkrishna1998@gmail.com",
       delay: 0.1
     },
     {
@@ -135,7 +135,8 @@ const Contact = () => {
               </p>
               
               <motion.a
-                href="mailto:milindkrishna1998@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&to=milindkrishna1998@gmail.com"
+                target="_blank"
                 className="inline-flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-300 shadow-lg"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
