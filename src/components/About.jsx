@@ -65,7 +65,7 @@ const About = () => {
         >
           <img
             src={`${process.env.PUBLIC_URL}/Milind.jpeg`}
-            alt="Gulshan Kumar Profile"
+            alt="Milind Krishna Profile"
             className="w-full h-full object-cover"
           />
         </motion.div>
@@ -85,7 +85,7 @@ const About = () => {
           {/* Email and LinkedIn */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 text-blue-500 text-base sm:text-lg mt-6 justify-center md:justify-start">
             <a
-              href="mailto:milindkrishna1998@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&to=milindkrishna1998@gmail.com"
               className="flex items-center gap-2 hover:underline hover:text-blue-600 cursor-pointer transition-colors duration-200"
               style={{ pointerEvents: 'auto', zIndex: 10 }}
             >
